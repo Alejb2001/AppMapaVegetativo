@@ -89,8 +89,15 @@ public class CameraActivity extends AppCompatActivity {
     }
 
     private void processImageWithPlantNet(File imageFile) {
-        // Implementar lógica de la API PlantNet aquí
+        // 1. Aquí iría la llamada real a la API PlantNet
+        // 2. Obtén los datos de la planta (ej: nombre y características)
+        String plantName = "Rosa canina";
+        String characteristics = "Flor silvestre, familia Rosaceae";
+
+        // 3. Pasa los datos a ResultActivity
         Intent resultIntent = new Intent(this, ResultActivity.class);
+        resultIntent.putExtra("PLANT_NAME", plantName);
+        resultIntent.putExtra("CHARACTERISTICS", characteristics);
         startActivity(resultIntent);
     }
 

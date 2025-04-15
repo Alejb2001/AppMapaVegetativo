@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "576650768007",
+    "project_id": "floranav-1abc8",
+    "storage_bucket": "floranav-1abc8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576650768007:android:28609a801f1fda80fd1222",
+        "android_client_info": {
+          "package_name": "mx.tecnm.chih2.app_floranav"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1u5ku6OWTliep9oSIjR-sSInkCl7rBhg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

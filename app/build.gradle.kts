@@ -45,16 +45,17 @@ dependencies {
     implementation ("androidx.camera:camera-lifecycle:1.3.0")
     implementation ("androidx.camera:camera-view:1.3.0")
 
-// Firebase
+    // Firebase
     implementation (platform("com.google.firebase:firebase-bom:32.0.0"))
     implementation ("com.google.firebase:firebase-firestore")
     implementation ("com.google.firebase:firebase-storage")
+    implementation("com.google.firebase:firebase-analytics")
 
-// Maps
+    // Maps
     implementation ("com.google.android.gms:play-services-maps:18.1.0")
     implementation ("com.google.android.gms:play-services-location:21.0.1")
 
-// API PlantNet
+    // API PlantNet
     implementation ("com.squareup.retrofit2:retrofit:2.9.0")
     implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
 
